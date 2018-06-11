@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Pos</title>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src = "js/web.js"></script>
+        <script src = "js/calculate.js"></script>
+        <link rel = "stylesheet" href = "css/main.css" type = "text/css"/>
+    </head>
+    <body>
+    <div id = "shop">
+      <table>
+        <thead>
+            <tr>
+              <th><img src="images/cola.jpg" alt="可乐"/> </th>
+              <th>
+                  <p>名称：可乐</p>
+                  <p>单位：瓶</p>
+                  <p>单价：3.00</p>
+                  <p>买二赠一</p>
+              </th>
+              <th>
+                <input class ="min" name="" type="button" value="-" />
+                <input class ="text_box" id = "cola" readonly="readonly" type="text" value="0" />
+                <input class ="add" name="" type="button" value="+" />
+            </th>
+            </tr>
+          </thead>
+          <thead>
+                <tr>
+                  <th><img src="images/sprite.jpg" alt="雪碧"/> </th>
+                  <th>
+                        <p>名称：雪碧</p>
+                        <p>单位：瓶</p>
+                        <p>单价：3.00</p>
+                        <p>买二赠一</p>
+                    </th>
+                  <th>
+                    <input class="min" name="" type="button" value="-" />
+                    <input class="text_box" id = "sprite" readonly="readonly" type="text" value="0" />
+                    <input class="add" name="" type="button" value="+" />
+                </th>
+                </tr>
+          </thead>
+          <thead>
+                <tr>
+                  <th><img src="images/apple.png" alt="苹果"/> </th>
+                  <th>
+                        <p>名称：苹果</p>
+                        <p>单位：斤</p>
+                        <p>单价：4.50</p>
+                    </th>
+                  <th>
+                    <input class="min" name="" type="button" value="-" />
+                    <input class="text_box" id = "apple" readonly="readonly" type="text" value="0" />
+                    <input class="add" name="" type="button" value="+" />
+                </th>
+                </tr>
+          </thead>
+          <thead>
+                <tr>
+                  <th><img src="images/litchi.jpg" alt="荔枝"/> </th>
+                  <th>
+                        <p>名称：荔枝</p>
+                        <p>单位：斤</p>
+                        <p>单价：15.00</p>
+                    </th>
+                  <th>
+                    <input class="min" name="" type="button" value="-" />
+                    <input class="text_box" id = "litchi"readonly="readonly" type="text" value="0" />
+                    <input class="add" name="" type="button" value="+" />
+                </th>
+                </tr>
+          </thead>
+          <thead>
+                <tr>
+                  <th><img src="images/battery.png" alt="电池"/> </th>
+                  <th>
+                        <p>名称：电池</p>
+                        <p>单位：个</p>
+                        <p>单价：2.00</p>
+                    </th>
+                  <th>
+                    <input class="min" name="" type="button" value="-" />
+                    <input class="text_box" id = "battery" readonly="readonly" type="text" value="0" />
+                    <input class="add" name="" type="button" value="+" />
+                </th>
+                </tr>
+          </thead>
+          <thead>
+                <tr>
+                  <th><img src="images/noodles.jpg" alt="方便面"/> </th>
+                  <th>
+                        <p>名称：方便面</p>
+                        <p>单位：包</p>
+                        <p>单价：4.50</p>
+                        <p>买二赠一</p>
+                    </th>
+                  <th>
+                    <input class="min" name="" type="button" value="-" />
+                    <input class="text_box" id = "noodles" readonly="readonly" type="text" value="0" />
+                    <input class="add" name="" type="button" value="+" />
+                </th>
+                </tr>
+          </thead>
+    </table>
+    <input type = "button" id="sub" value="提交"/>
+    </div>
+    <div id = "shop_cart">
+      <h1>购物清单</h1>
+      <textarea id = "content" rows="30" cols="40" readonly="readonly"></textarea>
+      <input type = "button" id = "sub2" value="确认" />
+    </div>
+    </body>
+</html>
